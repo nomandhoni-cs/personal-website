@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;  
+}
+.container{
+    width: 1280px;
+    }
+.half-width{
+    float: left;
+    width:40%;
+    padding: 5%;
+    }
+section{
+    height: 900px;
+    }
+.first-banner{
+ background-image: url("../img/header-bg.png");
+    }
+.second-banner{
+ background-image: url("../img/biography-bg.png");
+    }
+.work{
+    background-image: url('../img/latest-work-bg.png'); 
+}
+.contact{
+ background-image: url("../img/footer-bg.png");
+    }
+img{
+    height: 100%;
+    width: 100%;
+    }
+.work .half-width{
+ width: 23%; 
+ float: left;
+
+    }
