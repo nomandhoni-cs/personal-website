@@ -5,6 +5,16 @@ body{
 .container{
     width: 1280px;
     }
+h1{
+    font-size: 60px;
+}
+h1 .hello{
+    font-size: 40px;
+    font-weight: 400!
+}
+.highlight{
+    color:crimson;
+}
 .half-width{
     float: left;
     width:40%;
