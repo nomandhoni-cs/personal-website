@@ -2,9 +2,7 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;  
 }
-.container{
-    width: 1280px;
-    }
+
 h1{
     font-size: 60px;
 }
@@ -15,16 +13,23 @@ h1 .hello{
 h2{
 				font-size: 40px;
 }
+h3{
+				font-size: 30px;
+}
+h4{
+				font-size: 20px;
+}
 .highlight{
     color: #ff5574;
 }
 .half-width{
+width:40%;
     float: left;
-    width:40%;
-    padding: 5%;
+    margin-left: 5%;
+    padding-left: 2%;
     }
 section{
-    height: 800px;
+    height: 670px;
     }
 section .works{
     width: 300px;
@@ -47,8 +52,8 @@ img{
     width: 100%;
     }
 .work .half-width{
-margin: 0px;
- width: 23%; 
+margin-left: 5%;
+ width: 24%; 
  float: left;
     }
 .center-text{
@@ -65,4 +70,18 @@ width: 62%;
 }
 footer p{
 				text-align: center;
+}
+.btn{
+				background-color: #ff5574;
+				border: none;
+				border-radius: 5px;
+				padding: 15px;
+}
+.btn a{
+				text-decoration: none;
+				color: white;
+				font-weight: bold;
+}
+.margin-top{
+				margin-top: 70px;
 }
