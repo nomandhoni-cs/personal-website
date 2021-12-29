@@ -10,10 +10,13 @@ h1{
 }
 h1 .hello{
     font-size: 40px;
-    font-weight: 400!
+    font-weight: 400;
+}
+h2{
+				font-size: 40px;
 }
 .highlight{
-    color:crimson;
+    color: #ff5574;
 }
 .half-width{
     float: left;
@@ -21,26 +24,45 @@ h1 .hello{
     padding: 5%;
     }
 section{
-    height: 900px;
+    height: 800px;
     }
+section .works{
+    width: 300px;
+}
 .first-banner{
  background-image: url("../img/header-bg.png");
     }
 .second-banner{
  background-image: url("../img/biography-bg.png");
     }
-.work{
-    background-image: url('../img/latest-work-bg.png'); 
-}
 .contact{
  background-image: url("../img/footer-bg.png");
     }
+.work{
+height: 300px;
+				background-image: url("../img/latest-work-bg.png");
+}
 img{
     height: 100%;
     width: 100%;
     }
 .work .half-width{
+margin: 0px;
  width: 23%; 
  float: left;
-
     }
+.center-text{
+				text-align: center;
+}
+.email{
+width: 62%;
+				background-color: #ff5574;
+				border: none;
+				border-radius: 10px;
+				margin: auto;
+				padding: 20px;
+				color: white;
+}
+footer p{
+				text-align: center;
+}
