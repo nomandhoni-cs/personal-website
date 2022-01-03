@@ -2,7 +2,9 @@ body{
     margin: 0;
     font-family: 'Poppins', sans-serif;  
 }
-
+.container{
+    width: 1140px;
+}
 h1{
     font-size: 60px;
 }
@@ -44,7 +46,7 @@ section .works{
  background-image: url("../img/footer-bg.png");
     }
 .work{
-height: 300px;
+height: 400px;
 				background-image: url("../img/latest-work-bg.png");
 }
 img{
@@ -85,3 +87,41 @@ footer p{
 .margin-top{
 				margin-top: 70px;
 }
+.border-bottom{
+    display: inline-block;
+    position:relative;
+    }
+.border-bottom:before{
+    position: absolute;
+    content: "";
+    background: #ff5574;
+    height: 2px;
+    width: 50px;
+margin: auto;
+    left: 0;
+    bottom: 0;
+    transform: 0.7s;
+    }
+.border-bottom:hover:before{
+    width: 100%;
+    }
+
+/* border top */
+.border-top{
+    display: inline-block;
+    position:relative;
+    }
+.border-top:after{
+    position: absolute;
+    content: "";
+    background: #ff5574;
+    height: 2px;
+    width: 50px;
+margin: auto;
+    right: 0;
+    top: 0;
+    transform: 0.7s;
+    }
+.border-top:hover:after{
+    width: 100%;
+    }
