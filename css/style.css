@@ -3,34 +3,125 @@ body{
     font-family: 'Poppins', sans-serif;  
 }
 .container{
-    width: 1280px;
-    }
+    width: 1140px;
+}
+h1{
+    font-size: 60px;
+}
+h1 .hello{
+    font-size: 40px;
+    font-weight: 400;
+}
+h2{
+				font-size: 40px;
+}
+h3{
+				font-size: 30px;
+}
+h4{
+				font-size: 20px;
+}
+.highlight{
+    color: #ff5574;
+}
 .half-width{
+width:40%;
     float: left;
-    width:40%;
-    padding: 5%;
+    margin-left: 5%;
+    padding-left: 2%;
     }
 section{
-    height: 900px;
+    height: 670px;
     }
+section .works{
+    width: 300px;
+}
 .first-banner{
  background-image: url("../img/header-bg.png");
     }
 .second-banner{
  background-image: url("../img/biography-bg.png");
     }
-.work{
-    background-image: url('../img/latest-work-bg.png'); 
-}
 .contact{
  background-image: url("../img/footer-bg.png");
     }
+.work{
+height: 400px;
+				background-image: url("../img/latest-work-bg.png");
+}
 img{
     height: 100%;
     width: 100%;
     }
 .work .half-width{
- width: 23%; 
+margin-left: 5%;
+ width: 24%; 
  float: left;
+    }
+.center-text{
+				text-align: center;
+}
+.email{
+width: 62%;
+				background-color: #ff5574;
+				border: none;
+				border-radius: 10px;
+				margin: auto;
+				padding: 20px;
+				color: white;
+}
+footer p{
+				text-align: center;
+}
+.btn{
+				background-color: #ff5574;
+				border: none;
+				border-radius: 5px;
+				padding: 15px;
+}
+.btn a{
+				text-decoration: none;
+				color: white;
+				font-weight: bold;
+}
+.margin-top{
+				margin-top: 70px;
+}
+.border-bottom{
+    display: inline-block;
+    position:relative;
+    }
+.border-bottom:before{
+    position: absolute;
+    content: "";
+    background: #ff5574;
+    height: 2px;
+    width: 50px;
+margin: auto;
+    left: 0;
+    bottom: 0;
+    transform: 0.7s;
+    }
+.border-bottom:hover:before{
+    width: 100%;
+    }
 
+/* border top */
+.border-top{
+    display: inline-block;
+    position:relative;
+    }
+.border-top:after{
+    position: absolute;
+    content: "";
+    background: #ff5574;
+    height: 2px;
+    width: 50px;
+margin: auto;
+    right: 0;
+    top: 0;
+    transform: 0.7s;
+    }
+.border-top:hover:after{
+    width: 100%;
     }
