@@ -300,6 +300,7 @@ section .works{
     }
 .contact{
  background-image: url("../img/footer-bg.png");
+ height: 300px;
     }
 .work{
 height: 400px;
@@ -382,8 +383,17 @@ margin: auto;
     width: 100%;
     }
 
+.mailme{
+				height: 100px;
+}
+.text-bold{
+				font-weight: 500;
+}
 
-
-
-
-
+#scrollUp{
+text-align: center;
+display: block;
+line-height: 1.52;
+				color: white;
+				background-color: #ff5574;
+}
