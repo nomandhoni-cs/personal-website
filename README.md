@@ -1,4 +1,4 @@
-[![Header](https://raw.githubusercontent.com/nomandhoni-cs/nomandhoni-cs/main/img/personal website.png "Header")](https://dailynoman.blogspot.com/p/contact.html)
+[![Header](https://raw.githubusercontent.com/nomandhoni-cs/nomandhoni-cs/main/img/personal website.png "Header")](https://nomandhoni-cs.github.io/personal-website)
 
 
 # personal-website
