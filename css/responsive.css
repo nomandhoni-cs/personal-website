@@ -1,0 +1,51 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {
+				width: 100%;
+				margin: 0px;
+				padding: 0px;
+}
+h1 {font-size: 30px;}
+h2 {font-size: 20px;}
+.email{width:100%;}
+.half-width{
+				width: 100%;
+				margin: 10px 0;
+}
+.work > .half-width{
+				float: none;
+				width: 100%;
+				padding: 0;
+				margin: 7px 0;
+				overflow: hidden;
+}
+.email > h2 {font-size:14px;}
+.contact{margin-top: 410px;}
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
